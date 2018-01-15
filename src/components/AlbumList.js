@@ -8,7 +8,7 @@ class AlbumList extends Component {
     state = { albums : []};
 
     componentWillMount(){
-        axios.get('http://rallycoding.herokuapp.com/api/music_albums')
+        axios.get('https://raw.githubusercontent.com/Guendeli/react-native-albums/master/db.json')
         .then(response => this.setState({ albums : response.data}));
     }
 
