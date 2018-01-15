@@ -6,12 +6,16 @@ Also to play with ES6 (and dynamic typed languages, as i always thought they suc
 ![altText](https://i.imgur.com/Ij71XeK.png)
 
 Requires:
+
 react-native-cli
+
 axios
+
 a proper setup of Android Studio and/or Xcode
 
 Usage:
 npm install
+
 react-native run-android
 
 
